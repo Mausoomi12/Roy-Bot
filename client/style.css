@@ -8,13 +8,13 @@
 }
 
 body {
-  background: #343541;
+  background: #0C090A;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #0C090A;
 
   display: flex;
   flex-direction: column;
@@ -50,26 +50,26 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #2a2e337b;
 }
 
 .chat {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto auto;
 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 10px;
+  gap: 20px;
 }
 
 .profile {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 5px;
 
-  background: #5436DA;
+  /*background: #096AD9;*/
 
   display: flex;
   justify-content: center;
@@ -77,12 +77,12 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: #10a37e00;
 }
 
 .profile img {
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 85%;
   object-fit: contain;
 }
 
@@ -114,10 +114,10 @@ body {
 
 form {
   width: 100%;
-  max-width: 1280px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #1c1c22;
 
   display: flex;
   flex-direction: row;
